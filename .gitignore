@@ -3,9 +3,11 @@ __pycache__/
 *.py[cod]
 *.so
 
-# Environment files
-*.env
-.env/
+# Sensitive files
+.env
+
+# Application script if you don't want to push it
+app.py
 
 # Virtual environment directory
 planetary-api-env/
@@ -13,5 +15,3 @@ planetary-api-env/
 # SQLite database
 planets.db
 
-# Other files
-app.pyc
