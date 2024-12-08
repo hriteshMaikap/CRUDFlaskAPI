@@ -1,5 +1,17 @@
+# Byte-compiled / optimized / DLL files
 __pycache__/
+*.py[cod]
+*.so
+
+# Environment files
+*.env
 .env/
+
+# Virtual environment directory
 planetary-api-env/
+
+# SQLite database
 planets.db
-app.py 
+
+# Other files
+app.pyc
